@@ -1,0 +1,7 @@
+# dependencies
+node_modules
+.env
+build
+development.env
+production.env
+test.env
