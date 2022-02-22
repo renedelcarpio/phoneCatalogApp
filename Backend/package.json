@@ -4,9 +4,46 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "export NODE_ENV=development && nodemon --exec babel-node ./src/server.js",
+    "start": "export NODE_ENV=production && npm run build && node ./build/server.js",
+    "clean": "rm -rf build && mkdir build",
+    "build-babel": "babel ./src -d ./build",
+    "build": "npm run clean && npm run build-babel",
+    "test": "export NODE_ENV=test && jest",
+    "test:watch": "npm run test -- --watch",
+    "insert-data": "export NODE_ENV=development && babel-node ./src/scripts/createDummyData.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renedelcarpio/phoneCatalogApp"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bunyan": "^1.8.15",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.1.2",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/runtime": "^7.15.4",
+    "jest": "^27.2.4",
+    "supertest": "^6.1.6"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
 }
