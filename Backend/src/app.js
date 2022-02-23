@@ -6,6 +6,6 @@ const app = express();
 
 app.use(cors());
 
-app.use('/api/phones', phones);
+app.use('/phones', phones);
 
 export default app;
