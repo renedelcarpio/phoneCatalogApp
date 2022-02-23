@@ -1,4 +1,4 @@
-const phones = [
+const mockedPhones = [
 	{
 		id: 1,
 		brand: 'iPhone',
@@ -105,3 +105,5 @@ const phones = [
 			'https://www.celulares.com/fotos/xiaomi-redmi-note-11-4g-93326-g-alt.jpg',
 	},
 ];
+
+export default mockedPhones;
