@@ -5,13 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "export NODE_ENV=development && nodemon --exec babel-node ./src/server.js",
-    "start": "export NODE_ENV=production && npm run build && node ./build/server.js",
-    "clean": "rm -rf build && mkdir build",
-    "build-babel": "babel ./src -d ./build",
-    "build": "npm run clean && npm run build-babel",
     "test": "export NODE_ENV=test && jest",
-    "test:watch": "npm run test -- --watch",
-    "insert-data": "export NODE_ENV=development && babel-node ./src/scripts/createDummyData.js"
+    "test:watch": "npm run test -- --watch"
   },
   "repository": {
     "type": "git",
