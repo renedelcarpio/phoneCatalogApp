@@ -8,7 +8,7 @@ dotenv.config({
 const envConfig = {
 	NODE_ENV: process.env.NODE_ENV || 'development',
 	HOST: process.env.HOST || 'localhost',
-	PORT: process.env.PORT || '3000',
+	PORT: process.env.PORT || '5000',
 };
 
 export default envConfig;
