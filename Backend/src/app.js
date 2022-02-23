@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+import phones from './routes/phonesRoutes';
 
 const app = express();
 
