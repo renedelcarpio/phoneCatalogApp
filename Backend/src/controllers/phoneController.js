@@ -12,13 +12,12 @@ const getAll = (req, res) => {
 };
 
 const find = (req, res) => {
+	const phoneId = req.params.id;
+	const phones = mockedPhones;
+	const findPhone = (id) => {
+		return phones.filter((phone) => phone.id == id);
+	};
 	try {
-		const phoneId = req.params.id;
-		const phones = mockedPhones;
-		const findPhone = (id) => {
-			return phones.filter((phone) => phone.id == id);
-		};
-
 		res.status(HTTPCodes.Success).json(findPhone(phoneId));
 	} catch (error) {
 		console.log(error);
