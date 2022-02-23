@@ -1,5 +1,6 @@
 const phones = [
 	{
+		id: 1,
 		brand: 'iPhone',
 		model: 'iPhone 11',
 		description: `The iPhone 11, along with the iPhone 11 Pro, uses Apple's A13 Bionic processor, which contains a third-generation neural engine. It has three internal storage options: 64 GB, 128 GB, and 256 GB. It also has 4 GB of RAM. The iPhone 11 has an IP68 water- and dust-resistant rating along with dirt and grime, and is water-resistant up to 2 m (6.6 ft) for 30 minutes. However, the manufacturer's warranty does not cover liquid damage to the phone. Also, like previous iPhones, both phones do not have a headphone jack, and come with wired EarPods with a Lightning connector. The iPhone 11 is the first smartphone with built-in ultra-wideband hardware, via its Apple U1 chip.`,
@@ -9,6 +10,7 @@ const phones = [
 			'https://www.romapy.com/47358-large_default/apple-iphone-11--64gb-mhcp3lla-black-a2111---mhcp3lla.jpg',
 	},
 	{
+		id: 2,
 		brand: 'iPhone',
 		model: 'iPhone 12',
 		description: `The iPhone 12 and iPhone 12 Mini use Apple's six-core A14 Bionic processor, which contains a next-generation neural engine. They both have three internal storage options: 64, 128, and 256 GB[a]. Both also carry an IP68 water and dust resistance rating along with dirt and grime, and is water-resistant up to six meters (20 feet) for 30 minutes. However, the manufacturer warranty does not cover liquid damage to the phone.
@@ -21,6 +23,7 @@ const phones = [
 			'https://ivisualcomputers.com/wp-content/uploads/2020/12/70-iphone12-azul.png',
 	},
 	{
+		id: 3,
 		brand: 'iPhone',
 		model: 'iPhone 13',
 		description: `Introduced on September 14, 2021, the iPhone 13 and iPhone 13 mini are Apple's newest flagship iPhones at the more affordable end, and are being sold alongside the more expensive iPhone 13 Pro and iPhone 13 Pro Max. The iPhone 13 and iPhone 13 mini are ideal for those who don't need pro-level camera features.
@@ -32,6 +35,7 @@ const phones = [
 			'https://d6scj24zvfbbo.cloudfront.net/616a9af575c72d8147ecf682d1873bb5/200000684-afae9afaec/iphone-13-pink-0-ph%3Dfbe43d9248.png?ph=fbe43d9248',
 	},
 	{
+		id: 4,
 		brand: 'Samsung',
 		model: 'Galaxy S21',
 		description: `The Galaxy S21 series has a design similar to its predecessor, with an Infinity-O display containing a circular cutout in the top center for the front selfie camera. The S21 and S21 FE's back panel is reinforced poly-carbonate (plastic) similar to the S20 FE and Note 20 while the S21+ and S21 Ultra use Gorilla Glass Victus. The rear camera array has been integrated into the phone body except for the S21 FE which is made out of reinforced poly-carbonate integrated instead on the back cover and has a metallic surround; the S21 Ultra has a carbon fiber camera surround for exclusive colors.`,
@@ -40,6 +44,7 @@ const phones = [
 		img: 'https://m.media-amazon.com/images/I/61cjeSE+Z-L._AC_SL1000_.jpg',
 	},
 	{
+		id: 5,
 		brand: 'Samsung',
 		model: 'Galaxy Z Fold3',
 		description: `Unfold a world of possibilities with the Samsung Galaxy Z Fold3 5G. See and do more with the ultimate foldable screen that puts a workspace, theater and game room right in your pocket. The sleek 6.2” cover display unfolds to double its size, providing one expansive 7.6” 120Hz edge-to-edge Dynamic AMOLED 2X Infinity Flex screen that's like a tablet. The compact yet powerful tablet helps you master your busy life allows you to bring your workspace anywhere with an expansive screen that gives you multiple windows making multitasking a breeze. Find your escape with multimedia magic on a mesmerizing display that's silky smooth. Take in and capture incredible uninterrupted views with a true edge-to-edge viewing experience enabled by an Under Display Camera. With Flex Mode, you can fold the Galaxy Z Fold3 5G at any angle and hold it any way you like — or not hold it at all. Find your perfect angles and your favorite ways to flex with Galaxy Z Fold3 5G Flex Mode. Exceptionally sturdy and totally sleek, Galaxy Z Fold3 5G is built with premium craftsmanship to resist water. Work, watch, and play your way, in more places on America’s largest, fastest, and most reliable 5G network.`,
@@ -49,6 +54,7 @@ const phones = [
 			'https://images.samsung.com/es/smartphones/galaxy-z-fold3-5g/buy/02_Carousel/01_Main/zfold3_carousel_mainsinglekv_mo.jpg',
 	},
 	{
+		id: 6,
 		brand: 'Samsung',
 		model: 'Galaxy A72',
 		description: `The Samsung Galaxy A72 features a fresh new design, similar to what we saw with the Galaxy A52. The 6.7-inch Super AMOLED display has a full-HD+ resolution and 90Hz refresh rate, and supports HDR playback. The Samsung Galaxy A72 has an in-display fingerprint sensor, but I found it to be very inconsistent with authentication and a bit sluggish too.
@@ -60,6 +66,7 @@ const phones = [
 			'https://cellu.store/wp-content/uploads/2021/04/samsung-galaxy-a72-128gb6gb-android-dual-sim-smartphone-white-1616405634-1.png',
 	},
 	{
+		id: 7,
 		brand: 'Xiaomi',
 		model: '11T',
 		description: `The smartphone is powered by the MediaTek MT6893 Dimensity 1200 5G processor and Mali-G77 MC9 GPU. The smartphone comes with a 6.67 inches and 1080 x 2400 pixels resolution. It is protected by Corning Gorilla Glass Victus.
@@ -72,6 +79,7 @@ const phones = [
 		img: 'https://i.blogs.es/47fe94/mi11t-1/450_1000.jpeg',
 	},
 	{
+		id: 8,
 		brand: 'Xiaomi',
 		model: 'Mi 11',
 		description: `Xiaomi Mi 11 mobile was launched on 28th December 2020. The phone comes with a 6.81-inch touchscreen display with a resolution of 1440x3200 pixels at a pixel density of 515 pixels per inch (ppi) and an aspect ratio of 20:9. Xiaomi Mi 11 is powered by an octa-core Qualcomm Snapdragon 888 processor. It comes with 8GB of RAM. The Xiaomi Mi 11 runs Android 11 and is powered by a 4,600mAh non-removable battery. The Xiaomi Mi 11 supports wireless charging, as well as proprietary fast charging.
@@ -84,6 +92,7 @@ const phones = [
 			'https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/main_card_image/https/bdt.computerhoy.com/sites/default/files/mi11.jpg?itok=zSZCaUuF',
 	},
 	{
+		id: 9,
 		brand: 'Xiaomi',
 		model: 'Redmi Note 11',
 		description: `Redmi Note 11 mobile was launched on 26th January 2022. The phone comes with a 6.43-inch touchscreen display with a resolution of 1080x2400 pixels at a pixel density of 409 pixels per inch (ppi) and an aspect ratio of 20:9. Redmi Note 11 is powered by an octa-core Qualcomm Snapdragon 680 processor. It comes with 4GB of RAM. The Redmi Note 11 runs Android 11 and is powered by a 5000mAh battery. The Redmi Note 11 supports proprietary fast charging.
