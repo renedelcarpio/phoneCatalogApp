@@ -1,0 +1,18 @@
+@import '../../index.scss';
+
+.btn {
+  background-color: transparent;
+  border: 0.2rem solid $color-success;
+  border-radius: 1rem;
+  color: $color-light;
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: $color-success;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

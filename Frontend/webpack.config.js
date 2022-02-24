@@ -3,7 +3,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const Dotenv = require('dotenv-webpack');
 
-const BASE_API_URL = '/api';
+const BASE_API_URL = '/phones';
 const BACKEND_SERVER_URL = 'http://localhost:5000';
 
 module.exports = {

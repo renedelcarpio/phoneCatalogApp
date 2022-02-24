@@ -15,12 +15,6 @@ Use the package manager [npm](https://www.npmjs.com/) make the installations.
 npm install
 ```
 
-## Usage
-
-Before run the project you have to create the .env file in the Frontend folder:
-
-REACT_APP_BASE_API_URL= add your api url
-
 ### To run this project you can type in the terminal
 
 ```bash

@@ -1,0 +1,9 @@
+const types = {
+	GET_PHONES_SUCCESS: '[phone] GET_PHONES_SUCCESS',
+	GET_PHONES_FAILURE: '[phone] GET_PHONES_FAILURE',
+
+	GET_ONE_PHONE_SUCCESS: '[phone] GET_ONE_PHONE_SUCCESS',
+	GET_ONE_PHONE_FAILURE: '[phone] GET_ONE_PHONE_FAILURE',
+};
+
+export default types;

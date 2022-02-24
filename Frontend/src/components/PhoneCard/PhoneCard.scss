@@ -1,0 +1,56 @@
+@import '../../index.scss';
+
+.phone__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba($color-light, 0.4);
+  border: 0.1rem solid $color-light;
+  border-radius: 2rem;
+  overflow: hidden;
+  margin: 2rem;
+  width: 25rem;
+  height: 42rem;
+  transition: all 0.2s;
+
+  &:hover {
+    box-shadow: 0.2rem 0.2rem 1.3rem $color-light;
+  }
+}
+
+.phone__image--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone__image {
+  width: 28rem;
+  max-height: 28rem;
+  object-fit: cover;
+}
+
+.phone__info--container {
+  min-height: 8rem;
+  margin-bottom: 2rem;
+}
+
+.phone__info {
+  color: $color-light;
+  text-align: center;
+  padding: 0.3rem;
+}
+
+.brand {
+  font-size: 2rem;
+}
+
+.model {
+  font-size: 1.6rem;
+}
+
+.price {
+  color: $color-dark;
+  font-size: 2rem;
+}
