@@ -41,7 +41,7 @@ const mockedPhones = [
 		description: `The Galaxy S21 series has a design similar to its predecessor, with an Infinity-O display containing a circular cutout in the top center for the front selfie camera. The S21 and S21 FE's back panel is reinforced poly-carbonate (plastic) similar to the S20 FE and Note 20 while the S21+ and S21 Ultra use Gorilla Glass Victus. The rear camera array has been integrated into the phone body except for the S21 FE which is made out of reinforced poly-carbonate integrated instead on the back cover and has a metallic surround; the S21 Ultra has a carbon fiber camera surround for exclusive colors.`,
 		color: ['olive', 'graphite', 'lavender', 'white'],
 		price: 1201,
-		img: 'https://m.media-amazon.com/images/I/61cjeSE+Z-L._AC_SL1000_.jpg',
+		img: 'https://m.media-amazon.com/images/I/41r1qAL4cBL._SL500_.jpg',
 	},
 	{
 		id: 5,
@@ -62,8 +62,7 @@ const mockedPhones = [
     If the Samsung name and features such as the IP rating and stereo speakers are what drew you towards the Galaxy A72, I'd suggest buying the Galaxy A52 instead and saving some money.`,
 		color: ['black', 'green', 'yellow', 'purple', 'white'],
 		price: 495,
-		img:
-			'https://cellu.store/wp-content/uploads/2021/04/samsung-galaxy-a72-128gb6gb-android-dual-sim-smartphone-white-1616405634-1.png',
+		img: 'https://m.media-amazon.com/images/I/41B8D5ggxIL.jpg',
 	},
 	{
 		id: 7,
@@ -76,7 +75,8 @@ const mockedPhones = [
     It features a USB Type-C 2.0, USB On-The-Go, GPS with dual-band A-GPS, GLONASS, BDS, GALILEO, QZSS, NavIC. The smartphone is pack with 8 GB RAM with 128 GB and 256 GB internal storage.`,
 		color: ['blue', 'green', 'white'],
 		price: 455,
-		img: 'https://i.blogs.es/47fe94/mi11t-1/450_1000.jpeg',
+		img:
+			'https://v9y9v6a3.rocketcdn.me/wp-content/uploads/2021/09/kiboTEK_xiaomi_mi11t_pro_011.png',
 	},
 	{
 		id: 8,
@@ -89,7 +89,7 @@ const mockedPhones = [
 		color: ['blue', 'green', 'white'],
 		price: 601,
 		img:
-			'https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/main_card_image/https/bdt.computerhoy.com/sites/default/files/mi11.jpg?itok=zSZCaUuF',
+			'https://www.lacasadelmovil.net/wp-content/uploads/2021/09/mi-11-lite-verde.png',
 	},
 	{
 		id: 9,
@@ -102,7 +102,7 @@ const mockedPhones = [
 		color: ['blue', 'gray', 'stellar blue'],
 		price: 240,
 		img:
-			'https://www.celulares.com/fotos/xiaomi-redmi-note-11-4g-93326-g-alt.jpg',
+			'https://cdn-img.wemall.com/943745/w_1400,h_1400,c_thumb/60013c01316a0ea50ce5d55ed478cc6d/1-gy-redminote11.jpg',
 	},
 ];
 
