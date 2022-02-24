@@ -1,10 +1,10 @@
 import types from '../types/types';
 import axios from 'axios';
-import constant from '../../constants/constant';
 
 const getPhones = () => async (dispatch) => {
 	try {
-		const { data } = await axios.get(`${constant.API_URL}/phones`);
+		const { data } = await axios.get(`http://localhost:5000/phones`);
+		console.log(data);
 		dispatch({
 			type: types.GET_PHONES_SUCCESS,
 			payload: data,
