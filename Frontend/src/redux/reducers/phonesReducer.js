@@ -18,6 +18,17 @@ const phonesReducer = (state = initialState, action) => {
 				...state,
 				errorMessage: action.payload,
 			};
+		case types.GET_ONE_PHONE_SUCCESS:
+			return {
+				...state,
+				items: action.payload,
+				errorMessage: '',
+			};
+		case types.GET_ONE_PHONE_FAILURE:
+			return {
+				...state,
+				errorMessage: action.payload,
+			};
 		default:
 			return state;
 	}
